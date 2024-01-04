@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
+    <title>Tanish Personal Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">Tanish's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Services</a></li>
+                    <li><a href="">Projects</a></li>
+                    <li><a href="">Contact Me</a></li>
+                </ul>
+            </div> 
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi, My name is <span class="purple"><br>Tanish Raj Sharma</span>
+                <div>And I am a passionate <br>
+                <span id="element"></span></div>
+                <div class="buttons">
+                    <button class="btn">Download Resume</button>
+                    <button class="btn">Visit Github</button>
+                </div>
+            </div>
+            <div class="rightSection">
+                <img src="img.jpg" alt="">
+            </div>
+        </section>
+        <hr>
+        <section class="secondSection">
+            <span class="text-gray">What I have done so far</span>
+            <h1>Work Experience</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img src="https://cdn-icons-png.flaticon.com/128/1081/1081040.png" alt="" class="image-top">
+                    <div class="vertical-title">Studies<br>(Current)</div>
+                    <div class="vertical-desc">Currently I am a second-year student at Maulana Azad Memorial College Jammu and I am doing a bachelor's degree in Computer Applications. </div>
+                </div>
+                <div class="vertical">
+                    <img src="https://cdn-icons-png.flaticon.com/128/7858/7858975.png" alt="" class="image-top">
+                    <div class="vertical-title">Web Designer <br>(2022-Present)</div>
+                    <div class="vertical-desc">I found out about web designing from various youtubers and then learned it from youtube only. Currently I do not hold any certificates in web design, but soon I will be working for some experience or for a few bucks.</div>
+                </div>
+                <div class="vertical"> 
+                    <img src="https://cdn-icons-png.flaticon.com/128/3094/3094455.png" alt="" class="image-top">
+                    <div class="vertical-title">Front-end Developer <br>(2022-Present)</div>
+                    <div class="vertical-desc">I have studied and practised HTML, CSS and Java-Script from Youtube and from my own college as well. In my spare time I try new css and javascript codes on my own. </div> 
+                </div>
+                <div class="vertical">
+                    <img src="https://cdn-icons-png.flaticon.com/128/2634/2634393.png" alt="" class="image-top">
+                    <div class="vertical-title">Video Editor <br>(2020-2022)</div>
+                    <div class="vertical-desc">During the pandemic, I started learning video editing as a part time helped my buddies with some good edits and videos. Although, I didn't get any major contract, but I managed to make some bucks off it.</div>
+                </div>
+                <div class="vertical">
+                    <img src="https://img.icons8.com/external-flaticons-lineal-color-flat-icons/64/external-worker-human-resources-flaticons-lineal-color-flat-icons.png" alt="" class="image-top">
+                    <div class="vertical-title">Intern at Bharat Intern <br>(September 2023- Octber 2023)</div>
+                    <div class="vertical-desc">My first internship was at Bharat Intern in which I worked on 3 different projects using html, css and javascript. These tasks inclded making Netflix homepage clone, a simple tempterature convertor calculator bwtween celsius, fahrenheit and kelvin and a personal portfolio website.</div>
+                </div>                
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                Tanish's Developer Portfolio
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Services</a></li>
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="">Email</a></li>
+                    <li><a href="">Github</a></li>
+                </ul>
+            </div>
+            <div class="footer-fourth">
+                <ul>
+                    <li><a href="">Instagram</a></li>
+                    <li><a href="">Twitter</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-rights">
+           Copyright &#169www.tanishsportfolio.com | All rights reserved.
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Video Editor', 'Web Designer', 'Web Developer.'],
+            typeSpeed: 80,
+        });
+    </script>
+</body>
+</html>
